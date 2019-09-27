@@ -64,7 +64,7 @@ def runner(card_total)
         display_card_total
       if input == "s"
         hit?
-  end
-  display_card_total
-  end_game
+    end
+    display_card_total
+    end_game
 end
