@@ -58,14 +58,9 @@ def runner(card_total)
   card_total = card_total + initial_round
 
    until card_total > 21
-    hit?
-      if input == "h"
-        deal_card
-        display_card_total
-      elsif input == "s"
-        hit?
-        binding.pry
-      end
-      display_card_total
-      end_game
+     hit?
+     display_card_total
+   end 
+   display_card_total
+   end_game
 end
