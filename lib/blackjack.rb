@@ -64,6 +64,7 @@ def runner(card_total)
         display_card_total
       if input == "s"
         hit?
+        binding.pry
     end
     display_card_total
     end_game
