@@ -62,10 +62,10 @@ def runner(card_total)
       if input == "h"
         deal_card
         display_card_total
-      if input == "s"
+      elsif input == "s"
         hit?
         binding.pry
-    end
-    display_card_total
-    end_game
+      end
+      display_card_total
+      end_game
 end
